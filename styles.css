@@ -1,0 +1,41 @@
+
+.taskTitle {
+    font-size: large;
+    color: slateblue;
+    margin-left: 40px;
+}
+
+a {
+    display: block;
+}
+
+/* task-03 */
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .gallery-item {
+    list-style: none;
+  }
+
+  .gallery-img {
+      display: block;
+      margin: 0;
+      padding: 0;
+    max-width: 350px;
+  }
+
+  #validation-input {
+    border: 3px solid #bdbdbd;
+  }
+
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
