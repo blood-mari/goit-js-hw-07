@@ -9,7 +9,7 @@
 const inputRef = document.querySelector('#validation-input');
 
 const onInputFocusChange = () => {
-    if (inputRef.value.length >= inputRef.dataset.length) {
+    if (inputRef.value.length === inputRef.dataset.length) {
         inputRef.classList.add('valid');
         inputRef.classList.remove('invalid');
     }
