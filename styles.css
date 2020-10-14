@@ -39,3 +39,28 @@ a {
   #validation-input.invalid {
     border-color: #f44336;
   }
+
+  .color-picker__option {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    margin: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .transaction-table {
+    border-collapse: collapse;
+  }
+
+  .transaction-table th,
+  .transaction-table td {
+    padding: 8px;
+    border: 1px solid #2a2a2a;
+  }
+
+  .title__link {
+    display: inline-flex;
+    margin-left: 40px;
+  }
