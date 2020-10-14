@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Слушатели событий</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <p><a href="/">На главную</a></p>
+
+    <button type="button" class="js-target-btn">Целевая кнопка</button>
+    <button type="button" class="js-add-listener">Добавить слушатель</button>
+    <button type="button" class="js-remove-listener">Снять слушатель</button>
+
+    <!-- Событие сабмита формы -->
+    <form class="js-register-form" autocomplete="off">
+        <div role="group">
+          <label>
+            Почта
+            <input type="email" name="email" />
+          </label>
+          <label>
+            Пароль
+            <input name="password" type="password" />
+          </label>
+        </div>
+
+        <br />
+        <div role="group">
+          <b>Тип подписки:</b>
+          <label>
+            <input type="radio" name="subscription" value="free" />
+            Free
+          </label>
+          <label>
+            <input type="radio" name="subscription" value="basic" />
+            Basic
+          </label>
+          <label>
+            <input type="radio" name="subscription" value="pro" />
+            Pro
+          </label>
+        </div>
+
+        <br />
+        <button type="submit">Зарегистрироваться</button>
+      </form>
+
+      <!-- События инпутов -->
+
+      <!-- <form action="" autocomplete="off"> -->
+
+    <label>
+        Имя
+        <input type="text" class="js-input" />
+      </label>
+
+      <p>
+        <label>
+          <input type="checkbox" class="js-license" />
+          Принимаю лицензинное соглашение
+        </label>
+      </p>
+
+      <button type="submit" disabled class="js-button">
+        Зарегистрироваться как <span>Аноним</span>
+      </button>
+      <!-- </form> -->
+
+      <!-- События клавиатуры -->
+      <section>
+          <button class="js-clear key-clear">Очистить</button>
+        <p class="output js-output"></p>
+      </section>
+
+    <script src="./js/test-5.js" type="module"></script>
+    <script src="./js/test-6.js" type="module"></script>
+    <script src="./js/test-7.js" type="module"></script>
+    <script src="./js/test-8.js" type="module"></script>
+
+  </body>
+</html>
